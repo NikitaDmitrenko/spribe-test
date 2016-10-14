@@ -22,8 +22,8 @@ public class Word {
 
     @Override
     public String toString() {
-        return "Word{" +
-                "keyword='" + keyword + '\'' +
+        return "{" +
+                "\"keyword\":\"" + keyword + "\"" +
                 '}';
     }
 }
