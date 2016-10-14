@@ -14,7 +14,6 @@ import org.springframework.web.context.WebApplicationContext;
 
 
 import static org.hamcrest.Matchers.*;
-import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -63,7 +62,7 @@ public class TestFirstTaskController {
     }
 
     @Test
-    public void testClass() throws Exception {
+    public void testwordCounter() throws Exception {
         Word word = new Word();
         word.setKeyword("Вася");
         mockMvc.perform(post("/hello").contentType(MediaType.APPLICATION_JSON).content(word.toString())).andExpect(status().isOk())
