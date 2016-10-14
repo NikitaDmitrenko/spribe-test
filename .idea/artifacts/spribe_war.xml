@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spribe:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="test-spribe-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spribe:war exploded" />
+    </root>
+  </artifact>
+</component>

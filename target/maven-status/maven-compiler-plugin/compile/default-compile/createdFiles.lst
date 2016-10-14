@@ -1,0 +1,5 @@
+controllers\MainPage.class
+Model\Word.class
+controllers\SecondTaskController.class
+controllers\FirstTaskController.class
+Model\Player.class
